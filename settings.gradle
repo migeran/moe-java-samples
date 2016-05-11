@@ -1,0 +1,6 @@
+
+include ':ImplObjCClassInJava'
+include ':ImplObjCClassInJavaByInstance'
+include ':JNIFromObjC'
+include ':ObjCClassFactory'
+include ':ObjCProtoFactory'

@@ -1,5 +1,58 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+/************************/
+/** Build Script Setup **/
+/************************/
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+buildscript {
+    // Add central and local Maven repos
+    repositories {
+        maven {
+            url uri(System.getenv("INTEL_MULTI_OS_ENGINE_HOME") + "/gradle")
+        }
+        mavenCentral()
+    }
+    dependencies {
+        // MOE plugin
+        classpath 'com.intel.gradle:moeGradlePlugin:1.1.+'
+    }
 }
+
+/*******************/
+/** Project Setup **/
+/*******************/
+
+// Apply plugins
+apply plugin: 'moe'
+
+// Set source and target to Java 8
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+// Set maven repository
+repositories {
+    maven {
+        url uri(System.getenv("INTEL_MULTI_OS_ENGINE_HOME") + "/gradle")
+    }
+    mavenCentral()
+}
+
+// Exclude all files from Gradle's test runner
+test { exclude '**' }
+
+// Setup MOE
+moe {
+    xcode.mainTarget = 'ios'
+    xcode.infoPlistPath file('src/main/resources/Info.plist').absolutePath
+    xcode.generateProject false
+    xcode.xcodeProjectDirPath 'xcode'
+
+}
+
+// Set dependencies
+dependencies {
+    // Compile with 'jar' files in the project's 'lib' directory
+    compile fileTree(dir: 'lib', include: '*.jar')
+
+}
+
+
+
