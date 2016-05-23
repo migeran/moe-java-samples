@@ -2,7 +2,6 @@
 .gradle
 
 # Build folders
-build
 build-xcode
 target
 
