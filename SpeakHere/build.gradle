@@ -46,7 +46,7 @@ moe {
     xcode.packageName = 'com.migeran.speakhere'
     xcode.launchScreenFilePath = 'src/main/resources/LaunchScreen.xib'
     xcode.bundleID = 'com.migeran.SpeakHere'
-    xcode.infoPlistPath file('src/main/resources/Info.plist').absolutePath
+    xcode.infoPlistPath 'src/main/resources/Info.plist'
     xcode.generateProject false
     xcode.xcodeProjectDirPath 'xcode'
 

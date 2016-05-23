@@ -1,240 +1,212 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08821C8984431B649527BCE6 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = E5D3D17F3ED7890AA9B35C7A /* application.jar */; };
-		0ADC0D5C985464835FCB90E0 /* .gitinvisible in Resources */ = {isa = PBXBuildFile; fileRef = CB446957E7746CD7D11D9EC5 /* .gitinvisible */; };
-		130EA9CF0CCD2F2053D313C5 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD43ADD0728C610B830D6EAC /* preregister.txt */; };
-		1366AFED371C007E4EFE4D04 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2EF7E8B5549494DC04A55C /* Launch Screen.xib */; };
-		152857078AAF11C4A2FFCC09 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = F380E6810E058FFF06B6A76D /* application.jar */; };
-		16484146B0A6F37E67CD014F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B8086574D94659F4C0EDC /* main.cpp */; };
-		172584C6B3F1EFBBE9112902 /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0ED993BBF620EE64AD7C2737 /* classlist.txt */; };
-		3D9A2C1E824A00F0830E422A /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 640729ED25B818C72EC3110F /* preregister.txt */; };
-		58CB9FF3E629962B85A3F9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B826DEF986B985D84F3A8E6F /* Main.storyboard */; };
-		610C43A1E0EEB1869E5F4BFD /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3741918F77BD819230D36A /* MOE.framework */; };
-		8ACA65C9403D295E95A0C0D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B8086574D94659F4C0EDC /* main.cpp */; };
-		AEF55FFDBA2129ED44B23ED4 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3741918F77BD819230D36A /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B602F1EB3BDDE8480BB75E15 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3741918F77BD819230D36A /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C6390261200D72B11E530FC6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BF1337A2DE71646075E8C7D /* Info.plist */; };
-		C975FFE41CE1DCB300BC4B0A /* AQLevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = C975FFE11CE1DCB300BC4B0A /* AQLevelMeter.m */; };
-		C975FFE51CE1DCB300BC4B0A /* SpeakHereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C975FFE31CE1DCB300BC4B0A /* SpeakHereViewController.m */; };
-		C975FFE71CE1E77900BC4B0A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C975FFE61CE1E77900BC4B0A /* CoreAudio.framework */; };
-		C975FFE91CE1E78800BC4B0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C975FFE81CE1E78800BC4B0A /* AudioToolbox.framework */; };
-		C975FFEB1CE1E79700BC4B0A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C975FFEA1CE1E79700BC4B0A /* OpenGLES.framework */; };
-		C97E2FA11CE37DC100C9588C /* soundbar_plate_mono.png in Resources */ = {isa = PBXBuildFile; fileRef = C97E2F9F1CE37DC100C9588C /* soundbar_plate_mono.png */; };
-		C97E2FA21CE37DC100C9588C /* speaker_grill.png in Resources */ = {isa = PBXBuildFile; fileRef = C97E2FA01CE37DC100C9588C /* speaker_grill.png */; };
-		D18A11FBA1FFCA45245D2306 /* .gitinvisible in Resources */ = {isa = PBXBuildFile; fileRef = 13C4855BA217AF59AA219844 /* .gitinvisible */; };
-		E6F2BDD6683DE7E742FF17C5 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3741918F77BD819230D36A /* MOE.framework */; };
+		4FEE694FB9263618B7BE11F4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A22BC51D5C3DE444B2908 /* main.cpp */; };
+		D16910BAEE2C1AD62A940F64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A22BC51D5C3DE444B2908 /* main.cpp */; };
+		9B1A773B502759B5D6CB6221 /* MOE.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76EB932A2F816DFDBA81A515 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		398A32A1EB409C1F8239E560 /* MOE.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76EB932A2F816DFDBA81A515 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D042DBF13D955CCD4BB5BF15 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EB932A2F816DFDBA81A515 /* MOE.framework */; };
+		D7AD0BF7209106DE5844BA37 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EB932A2F816DFDBA81A515 /* MOE.framework */; };
+		07364D93235A634F7E7300C6 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE26388895AB38538943B1F9 /* preregister.txt */; };
+		D371805D8495C50CF7A22C68 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4EAC1023FC116908CDC8D52 /* preregister.txt */; };
+		6924ADF3576C16FF0FFC4227 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = EF9B1B6D2555F184B9B8351C /* application.jar */; };
+		472F1C4FF4CD17ECDE350050 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = E00553D9BB071E67981E3981 /* application.jar */; };
+		A5BA286F9444B4F310987D00 /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FAD97E094C4FDDA874B4 /* classlist.txt */; };
+		49E4F58DAD753E4CDD90133A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCF38452A76D757A5A1BDC2 /* Main.storyboard */; };
+		CAF1256241AF344DE55AAEC1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 722BCE65F5EBE00AC6BD19A1 /* Info.plist */; };
+		B6894E470D377E4AE0F3D895 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BFDF9880E6219EBFD5129A3 /* Launch Screen.xib */; };
+		AF4F396B4CBA363450CFC25E /* speaker_grill.png in Resources */ = {isa = PBXBuildFile; fileRef = 853E5EF6211CF062CC9CC285 /* speaker_grill.png */; };
+		CC62D5E6848C735CC8F18A97 /* soundbar_plate_mono.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F38ACF8932A8A4749F4F4 /* soundbar_plate_mono.png */; };
+		5B9921FE6E2104737D706521 /* .gitinvisible in Resources */ = {isa = PBXBuildFile; fileRef = 344C5C232FFC79DBD35AF646 /* .gitinvisible */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		768DA4EF74F34844AF5F032C /* Embed Frameworks */ = {
+		A88C2722BB894BC2E8F4BD0D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+				9B1A773B502759B5D6CB6221 /* MOE.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 			dstPath = "";
 			dstSubfolderSpec = 10;
-			files = (
-				AEF55FFDBA2129ED44B23ED4 /* MOE.framework in Embed Frameworks */,
-			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C997163095203FE78BED3C8E /* Embed Frameworks */ = {
+		93CFEDE9F2061E158627496D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+				398A32A1EB409C1F8239E560 /* MOE.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 			dstPath = "";
 			dstSubfolderSpec = 10;
-			files = (
-				B602F1EB3BDDE8480BB75E15 /* MOE.framework in Embed Frameworks */,
-			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B436C1E6F273D2244D85D0A /* SpeakHere-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeakHere-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ED993BBF620EE64AD7C2737 /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = classlist.txt; path = ../build/moe/test/classlist.txt; sourceTree = SOURCE_ROOT; };
-		13C4855BA217AF59AA219844 /* .gitinvisible */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitinvisible; path = ../src/main/resources/.gitinvisible; sourceTree = SOURCE_ROOT; };
-		1BF1337A2DE71646075E8C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../src/main/resources/Info.plist; sourceTree = SOURCE_ROOT; };
-		3B3741918F77BD819230D36A /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = MOE_FRAMEWORK_PATH; };
-		43E354AE5313D25090841955 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		559D81D33372642569FA6A0B /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		640729ED25B818C72EC3110F /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
-		7A1B8086574D94659F4C0EDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		9E87DCCFCA3177645F09380F /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Test.plist"; path = "SpeakHere-Test/Info-Test.plist"; sourceTree = "<group>"; };
-		AA2EF7E8B5549494DC04A55C /* Launch Screen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../src/main/resources/Launch Screen.xib"; sourceTree = SOURCE_ROOT; };
-		B826DEF986B985D84F3A8E6F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../src/main/resources/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		BD43ADD0728C610B830D6EAC /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/main/preregister.txt; sourceTree = SOURCE_ROOT; };
-		C975FFE01CE1DCB300BC4B0A /* AQLevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQLevelMeter.h; sourceTree = "<group>"; };
-		C975FFE11CE1DCB300BC4B0A /* AQLevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQLevelMeter.m; sourceTree = "<group>"; };
-		C975FFE21CE1DCB300BC4B0A /* SpeakHereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakHereViewController.h; sourceTree = "<group>"; };
-		C975FFE31CE1DCB300BC4B0A /* SpeakHereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakHereViewController.m; sourceTree = "<group>"; };
-		C975FFE61CE1E77900BC4B0A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		C975FFE81CE1E78800BC4B0A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		C975FFEA1CE1E79700BC4B0A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		C97E2F9F1CE37DC100C9588C /* soundbar_plate_mono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soundbar_plate_mono.png; path = ../../src/main/resources/soundbar_plate_mono.png; sourceTree = "<group>"; };
-		C97E2FA01CE37DC100C9588C /* speaker_grill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speaker_grill.png; path = ../../src/main/resources/speaker_grill.png; sourceTree = "<group>"; };
-		CB446957E7746CD7D11D9EC5 /* .gitinvisible */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitinvisible; path = ../src/test/resources/.gitinvisible; sourceTree = SOURCE_ROOT; };
-		CDCA61051555756A0E6D1F99 /* SpeakHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D3D17F3ED7890AA9B35C7A /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/main/application.jar; sourceTree = SOURCE_ROOT; };
-		F380E6810E058FFF06B6A76D /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
+		8E0A22BC51D5C3DE444B2908 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BC7F0E15A63E3671BF7689FD /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		61D88760003ED7AA0D212020 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		4EF1661F21AB55CCAEC482FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ../src/main/resources/Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		682FE2C34B575342AE9DE1B6 /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakHere-Test/Info-Test.plist"; sourceTree = "<group>"; name = "Info-Test.plist"; };
+		A02B98E285AF7F215C7AB8D3 /* SpeakHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DD457C2C469FAD4F320B3B /* SpeakHere-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeakHere-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EB932A2F816DFDBA81A515 /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = MOE_FRAMEWORK_PATH; };
+		CE26388895AB38538943B1F9 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ../build/moe/main/preregister.txt; sourceTree = SOURCE_ROOT; name = preregister.txt; };
+		C4EAC1023FC116908CDC8D52 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; name = preregister.txt; };
+		EF9B1B6D2555F184B9B8351C /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = ../build/moe/main/application.jar; sourceTree = SOURCE_ROOT; name = application.jar; };
+		E00553D9BB071E67981E3981 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; name = application.jar; };
+		CDC0FAD97E094C4FDDA874B4 /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ../build/moe/test/classlist.txt; sourceTree = SOURCE_ROOT; name = classlist.txt; };
+		5BCF38452A76D757A5A1BDC2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ../src/main/resources/Main.storyboard; sourceTree = SOURCE_ROOT; name = Main.storyboard; };
+		722BCE65F5EBE00AC6BD19A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ../src/main/resources/Info.plist; sourceTree = SOURCE_ROOT; name = Info.plist; };
+		6BFDF9880E6219EBFD5129A3 /* Launch Screen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "../src/main/resources/Launch Screen.xib"; sourceTree = SOURCE_ROOT; name = "Launch Screen.xib"; };
+		853E5EF6211CF062CC9CC285 /* speaker_grill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ../src/main/resources/speaker_grill.png; sourceTree = SOURCE_ROOT; name = speaker_grill.png; };
+		8E6F38ACF8932A8A4749F4F4 /* soundbar_plate_mono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ../src/main/resources/soundbar_plate_mono.png; sourceTree = SOURCE_ROOT; name = soundbar_plate_mono.png; };
+		344C5C232FFC79DBD35AF646 /* .gitinvisible */ = {isa = PBXFileReference; lastKnownFileType = text; path = ../src/test/resources/.gitinvisible; sourceTree = SOURCE_ROOT; name = .gitinvisible; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1364A15F91810B7B2A6FDEB4 /* Frameworks */ = {
+		7324619E9543844EB0418298 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610C43A1E0EEB1869E5F4BFD /* MOE.framework in Frameworks */,
+				D042DBF13D955CCD4BB5BF15 /* MOE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEB350C7077823402C42F8C6 /* Frameworks */ = {
+		16AC1403B1D15038EFA74501 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C975FFEB1CE1E79700BC4B0A /* OpenGLES.framework in Frameworks */,
-				C975FFE91CE1E78800BC4B0A /* AudioToolbox.framework in Frameworks */,
-				C975FFE71CE1E77900BC4B0A /* CoreAudio.framework in Frameworks */,
-				E6F2BDD6683DE7E742FF17C5 /* MOE.framework in Frameworks */,
+				D7AD0BF7209106DE5844BA37 /* MOE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AE3CEF3C6C4EA3C6B7D0D92 /* SpeakHere-Test */ = {
+		FD58934CC81DC6ABAAC9AE1D /* SpeakHere */ = {
 			isa = PBXGroup;
-			children = (
-				6B7AE29281325703784FD0BB /* Supporting Files */,
-			);
-			path = "SpeakHere-Test";
-			sourceTree = "<group>";
-		};
-		222E22CC5BD7D8B7E066DA6B = {
-			isa = PBXGroup;
-			children = (
-				C609C4A4865704795F3FA090 /* SpeakHere */,
-				1AE3CEF3C6C4EA3C6B7D0D92 /* SpeakHere-Test */,
-				DC7F841D2125B0BACD3F1FE6 /* Frameworks */,
-				529432B40F4D2B0E4A9B4C1A /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		529432B40F4D2B0E4A9B4C1A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CDCA61051555756A0E6D1F99 /* SpeakHere.app */,
-				0B436C1E6F273D2244D85D0A /* SpeakHere-Test.app */,
-			);
-			path = Products;
-			sourceTree = "<group>";
-		};
-		6B7AE29281325703784FD0BB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				559D81D33372642569FA6A0B /* build.xcconfig */,
-				9E87DCCFCA3177645F09380F /* Info-Test.plist */,
-				640729ED25B818C72EC3110F /* preregister.txt */,
-				F380E6810E058FFF06B6A76D /* application.jar */,
-				0ED993BBF620EE64AD7C2737 /* classlist.txt */,
-				CB446957E7746CD7D11D9EC5 /* .gitinvisible */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BBC1FD7E60934B41D1A06CF1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C97E2F9F1CE37DC100C9588C /* soundbar_plate_mono.png */,
-				C97E2FA01CE37DC100C9588C /* speaker_grill.png */,
-				C975FFE01CE1DCB300BC4B0A /* AQLevelMeter.h */,
-				C975FFE11CE1DCB300BC4B0A /* AQLevelMeter.m */,
-				C975FFE21CE1DCB300BC4B0A /* SpeakHereViewController.h */,
-				C975FFE31CE1DCB300BC4B0A /* SpeakHereViewController.m */,
-				7A1B8086574D94659F4C0EDC /* main.cpp */,
-				43E354AE5313D25090841955 /* build.xcconfig */,
-				BD43ADD0728C610B830D6EAC /* preregister.txt */,
-				E5D3D17F3ED7890AA9B35C7A /* application.jar */,
-				13C4855BA217AF59AA219844 /* .gitinvisible */,
-				B826DEF986B985D84F3A8E6F /* Main.storyboard */,
-				1BF1337A2DE71646075E8C7D /* Info.plist */,
-				AA2EF7E8B5549494DC04A55C /* Launch Screen.xib */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C609C4A4865704795F3FA090 /* SpeakHere */ = {
-			isa = PBXGroup;
-			children = (
-				BBC1FD7E60934B41D1A06CF1 /* Supporting Files */,
-			);
+			name = SpeakHere;
 			path = SpeakHere;
 			sourceTree = "<group>";
-		};
-		DC7F841D2125B0BACD3F1FE6 /* Frameworks */ = {
-			isa = PBXGroup;
 			children = (
-				C975FFEA1CE1E79700BC4B0A /* OpenGLES.framework */,
-				C975FFE81CE1E78800BC4B0A /* AudioToolbox.framework */,
-				C975FFE61CE1E77900BC4B0A /* CoreAudio.framework */,
-				3B3741918F77BD819230D36A /* MOE.framework */,
+				BB946BB100DF2A69A8330A49 /* Supporting Files */,
 			);
+		};
+		BB946BB100DF2A69A8330A49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+			children = (
+				8E0A22BC51D5C3DE444B2908 /* main.cpp */,
+				BC7F0E15A63E3671BF7689FD /* build.xcconfig */,
+				4EF1661F21AB55CCAEC482FF /* Info.plist */,
+				CE26388895AB38538943B1F9 /* preregister.txt */,
+				EF9B1B6D2555F184B9B8351C /* application.jar */,
+				5BCF38452A76D757A5A1BDC2 /* Main.storyboard */,
+				722BCE65F5EBE00AC6BD19A1 /* Info.plist */,
+				6BFDF9880E6219EBFD5129A3 /* Launch Screen.xib */,
+				853E5EF6211CF062CC9CC285 /* speaker_grill.png */,
+				8E6F38ACF8932A8A4749F4F4 /* soundbar_plate_mono.png */,
+			);
+		};
+		9A6A9C24C197803A7CFA5A4E /* SpeakHere-Test */ = {
+			isa = PBXGroup;
+			name = "SpeakHere-Test";
+			path = "SpeakHere-Test";
+			sourceTree = "<group>";
+			children = (
+				EA736D8D1A24138E0CCC9A88 /* Supporting Files */,
+			);
+		};
+		EA736D8D1A24138E0CCC9A88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+			children = (
+				61D88760003ED7AA0D212020 /* build.xcconfig */,
+				682FE2C34B575342AE9DE1B6 /* Info-Test.plist */,
+				C4EAC1023FC116908CDC8D52 /* preregister.txt */,
+				E00553D9BB071E67981E3981 /* application.jar */,
+				CDC0FAD97E094C4FDDA874B4 /* classlist.txt */,
+				344C5C232FFC79DBD35AF646 /* .gitinvisible */,
+			);
+		};
+		6445E4E78B13A7D984F2F392 = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				FD58934CC81DC6ABAAC9AE1D /* SpeakHere */,
+				9A6A9C24C197803A7CFA5A4E /* SpeakHere-Test */,
+				FD31F43ACF1F08FB55D3EC7D /* Frameworks */,
+				BEA0242E3598FCEEEBFD043B /* Products */,
+			);
+		};
+		BEA0242E3598FCEEEBFD043B /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			path = Products;
+			sourceTree = "<group>";
+			children = (
+				A02B98E285AF7F215C7AB8D3 /* SpeakHere.app */,
+				F8DD457C2C469FAD4F320B3B /* SpeakHere-Test.app */,
+			);
+		};
+		FD31F43ACF1F08FB55D3EC7D /* Frameworks */ = {
+			isa = PBXGroup;
+			name = Frameworks;
 			path = Frameworks;
 			sourceTree = "<group>";
+			children = (
+				76EB932A2F816DFDBA81A515 /* MOE.framework */,
+			);
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A480A7F7C6D11D622B061FA /* SpeakHere */ = {
+		043CC30D7A9B8A15FAD39B20 /* SpeakHere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEC42DDF507AD5BBFD8FFB55 /* Build configuration list for PBXNativeTarget "SpeakHere" */;
-			buildPhases = (
-				0554D522584A7AFEF2A33470 /* Compile Sources (MOE) */,
-				CEB350C7077823402C42F8C6 /* Frameworks */,
-				8B0A23D4E9E3E63E1819ED57 /* Resources */,
-				67687D448620557795F6632D /* Sources */,
-				768DA4EF74F34844AF5F032C /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
 			name = SpeakHere;
 			productName = SpeakHere;
-			productReference = CDCA61051555756A0E6D1F99 /* SpeakHere.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A1F1303768519499E6293A26 /* SpeakHere-Test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C1398AECE50A7EA9CF3432B /* Build configuration list for PBXNativeTarget "SpeakHere-Test" */;
+			buildConfigurationList = EA1BA2D173355590B10ED64F /* Build configuration list for PBXNativeTarget "SpeakHere" */;
 			buildPhases = (
-				BD1C53346196651624A397B6 /* Compile Sources (MOE) */,
-				1364A15F91810B7B2A6FDEB4 /* Frameworks */,
-				FED20C81B93CA86A1266B2F7 /* Resources */,
-				A2E8D60AE5971A3FC4CCA0C9 /* Sources */,
-				C997163095203FE78BED3C8E /* Embed Frameworks */,
+				163F863AD261495F9F216CF2 /* Compile Sources (MOE) */,
+				7324619E9543844EB0418298 /* Frameworks */,
+				EB78CA730195CE6A2462ECE1 /* Resources */,
+				061E610B53D55B548E8F8358 /* Sources */,
+				A88C2722BB894BC2E8F4BD0D /* CopyFiles */,
 			);
-			buildRules = (
-			);
+			productReference = A02B98E285AF7F215C7AB8D3 /* SpeakHere.app */;
+		};
+		79906448962F2EC213AFAAD3 /* SpeakHere-Test */ = {
+			isa = PBXNativeTarget;
 			name = "SpeakHere-Test";
 			productName = "SpeakHere-Test";
-			productReference = 0B436C1E6F273D2244D85D0A /* SpeakHere-Test.app */;
 			productType = "com.apple.product-type.application";
+			buildConfigurationList = EF5FEDB385BD4C6BC8930340 /* Build configuration list for PBXNativeTarget "SpeakHere-Test" */;
+			buildPhases = (
+				230C16EE6D730EC2FC612D50 /* Compile Sources (MOE) */,
+				16AC1403B1D15038EFA74501 /* Frameworks */,
+				3722931A69886E41CE7A5402 /* Resources */,
+				FBABEDCD2B05E56314FB4D2E /* Sources */,
+				93CFEDE9F2061E158627496D /* CopyFiles */,
+			);
+			productReference = F8DD457C2C469FAD4F320B3B /* SpeakHere-Test.app */;
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		89B29E4CF39EF3BC42DE3BA8 /* Project object */ = {
+		98D88D1255AD6E1EEBF7FF7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "";
 			};
-			buildConfigurationList = 4D42C5F0ADC5E1126B34B9F1 /* Build configuration list for PBXProject "SpeakHere" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,116 +214,160 @@
 				en,
 				Base,
 			);
-			mainGroup = 222E22CC5BD7D8B7E066DA6B;
-			productRefGroup = 529432B40F4D2B0E4A9B4C1A /* Products */;
+			mainGroup = 6445E4E78B13A7D984F2F392;
+			productRefGroup = BEA0242E3598FCEEEBFD043B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A480A7F7C6D11D622B061FA /* SpeakHere */,
-				A1F1303768519499E6293A26 /* SpeakHere-Test */,
+				043CC30D7A9B8A15FAD39B20 /* SpeakHere */,
+				79906448962F2EC213AFAAD3 /* SpeakHere-Test */,
 			);
+			buildConfigurationList = 834D89408084A52967402A58 /* Build configuration list for PBXProject "SpeakHere" */;
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B0A23D4E9E3E63E1819ED57 /* Resources */ = {
+		EB78CA730195CE6A2462ECE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97E2FA21CE37DC100C9588C /* speaker_grill.png in Resources */,
-				130EA9CF0CCD2F2053D313C5 /* preregister.txt in Resources */,
-				08821C8984431B649527BCE6 /* application.jar in Resources */,
-				D18A11FBA1FFCA45245D2306 /* .gitinvisible in Resources */,
-				58CB9FF3E629962B85A3F9C7 /* Main.storyboard in Resources */,
-				C97E2FA11CE37DC100C9588C /* soundbar_plate_mono.png in Resources */,
-				C6390261200D72B11E530FC6 /* Info.plist in Resources */,
-				1366AFED371C007E4EFE4D04 /* Launch Screen.xib in Resources */,
+				07364D93235A634F7E7300C6 /* preregister.txt in Resources */,
+				6924ADF3576C16FF0FFC4227 /* application.jar in Resources */,
+				49E4F58DAD753E4CDD90133A /* Main.storyboard in Resources */,
+				CAF1256241AF344DE55AAEC1 /* Info.plist in Resources */,
+				B6894E470D377E4AE0F3D895 /* Launch Screen.xib in Resources */,
+				AF4F396B4CBA363450CFC25E /* speaker_grill.png in Resources */,
+				CC62D5E6848C735CC8F18A97 /* soundbar_plate_mono.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FED20C81B93CA86A1266B2F7 /* Resources */ = {
+		3722931A69886E41CE7A5402 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9A2C1E824A00F0830E422A /* preregister.txt in Resources */,
-				152857078AAF11C4A2FFCC09 /* application.jar in Resources */,
-				172584C6B3F1EFBBE9112902 /* classlist.txt in Resources */,
-				0ADC0D5C985464835FCB90E0 /* .gitinvisible in Resources */,
+				D371805D8495C50CF7A22C68 /* preregister.txt in Resources */,
+				472F1C4FF4CD17ECDE350050 /* application.jar in Resources */,
+				A5BA286F9444B4F310987D00 /* classlist.txt in Resources */,
+				5B9921FE6E2104737D706521 /* .gitinvisible in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0554D522584A7AFEF2A33470 /* Compile Sources (MOE) */ = {
+		163F863AD261495F9F216CF2 /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Compile Sources (MOE)";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources (MOE)";
 			shellPath = /bin/bash;
 			shellScript = "cd \"${SRCROOT}/..\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
 		};
-		BD1C53346196651624A397B6 /* Compile Sources (MOE) */ = {
+		230C16EE6D730EC2FC612D50 /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Compile Sources (MOE)";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources (MOE)";
 			shellPath = /bin/bash;
 			shellScript = "cd \"${SRCROOT}/..\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    export MOE_BUILD_SOURCE_SET=test\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67687D448620557795F6632D /* Sources */ = {
+		061E610B53D55B548E8F8358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C975FFE41CE1DCB300BC4B0A /* AQLevelMeter.m in Sources */,
-				16484146B0A6F37E67CD014F /* main.cpp in Sources */,
-				C975FFE51CE1DCB300BC4B0A /* SpeakHereViewController.m in Sources */,
+				4FEE694FB9263618B7BE11F4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2E8D60AE5971A3FC4CCA0C9 /* Sources */ = {
+		FBABEDCD2B05E56314FB4D2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ACA65C9403D295E95A0C0D9 /* main.cpp in Sources */,
+				D16910BAEE2C1AD62A940F64 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3AE9DEFBB4E8584A1A3C889E /* Release */ = {
+		51179A7A6E677BF63600DC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 559D81D33372642569FA6A0B /* build.xcconfig */;
+			name = Debug;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "Info-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
+				PRODUCT_NAME = SpeakHere;
+				STRIP_STYLE = "non-global";
+				INFOPLIST_FILE = ../src/main/resources/Info.plist;
+			};
+			baseConfigurationReference = BC7F0E15A63E3671BF7689FD /* build.xcconfig */;
+		};
+		8A95F2281CBCC3FA6E466019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
+				PRODUCT_NAME = SpeakHere;
+				STRIP_STYLE = "non-global";
+				INFOPLIST_FILE = ../src/main/resources/Info.plist;
+			};
+			baseConfigurationReference = BC7F0E15A63E3671BF7689FD /* build.xcconfig */;
+		};
+		07CA5E29C406222F0486620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
 				PRODUCT_NAME = "SpeakHere-Test";
 				STRIP_STYLE = "non-global";
+				INFOPLIST_FILE = "Info-Test.plist";
 			};
-			name = Release;
+			baseConfigurationReference = 61D88760003ED7AA0D212020 /* build.xcconfig */;
 		};
-		4E6C5832487154B6C4A15848 /* Debug */ = {
+		AA214C66DAA83D02C22B7389 /* Release */ = {
 			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
+				PRODUCT_NAME = "SpeakHere-Test";
+				STRIP_STYLE = "non-global";
+				INFOPLIST_FILE = "Info-Test.plist";
+			};
+			baseConfigurationReference = 61D88760003ED7AA0D212020 /* build.xcconfig */;
+		};
+		F246C2ED5F811A37E073A5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -368,13 +384,24 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"${MOE_FRAMEWORK_PATH}",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SYMROOT = "/Volumes/res/Roland-git/moe-objc-java-samples/SpeakHere/build/moe/xcodebuild/sym";
+				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -382,68 +409,12 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = "";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Volumes/job/inde-migeran-dev/migeran/samples/SpeakHere/build/moe/xcodebuild/sym";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
 		};
-		50C696F32C87BA9A5DF40FC1 /* Debug */ = {
+		0F99BB1FB4D41E492C2BCA69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 559D81D33372642569FA6A0B /* build.xcconfig */;
-			buildSettings = {
-				DEAD_CODE_STRIPPING = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "Info-Test.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = "SpeakHere-Test";
-				STRIP_STYLE = "non-global";
-			};
-			name = Debug;
-		};
-		6AC6F1FCFA305893C9958D71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43E354AE5313D25090841955 /* build.xcconfig */;
-			buildSettings = {
-				DEAD_CODE_STRIPPING = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = ../src/main/resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = SpeakHere;
-				STRIP_STYLE = "non-global";
-			};
 			name = Release;
-		};
-		854E6741B93D1ED8B0553AFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43E354AE5313D25090841955 /* build.xcconfig */;
-			buildSettings = {
-				DEAD_CODE_STRIPPING = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = ../src/main/resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = SpeakHere;
-				STRIP_STYLE = "non-global";
-			};
-			name = Debug;
-		};
-		C73A53B11C0C68BD02C0F5EC /* Release */ = {
-			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -460,8 +431,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,45 +445,48 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SYMROOT = "/Volumes/job/inde-migeran-dev/migeran/samples/SpeakHere/build/moe/xcodebuild/sym";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				SYMROOT = "/Volumes/res/Roland-git/moe-objc-java-samples/SpeakHere/build/moe/xcodebuild/sym";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D42C5F0ADC5E1126B34B9F1 /* Build configuration list for PBXProject "SpeakHere" */ = {
+		EA1BA2D173355590B10ED64F /* Build configuration list for PBXNativeTarget "SpeakHere" */ = {
 			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E6C5832487154B6C4A15848 /* Debug */,
-				C73A53B11C0C68BD02C0F5EC /* Release */,
-			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			buildConfigurations = (
+				51179A7A6E677BF63600DC8F /* Debug */,
+				8A95F2281CBCC3FA6E466019 /* Release */,
+			);
 		};
-		5C1398AECE50A7EA9CF3432B /* Build configuration list for PBXNativeTarget "SpeakHere-Test" */ = {
+		EF5FEDB385BD4C6BC8930340 /* Build configuration list for PBXNativeTarget "SpeakHere-Test" */ = {
 			isa = XCConfigurationList;
-			buildConfigurations = (
-				50C696F32C87BA9A5DF40FC1 /* Debug */,
-				3AE9DEFBB4E8584A1A3C889E /* Release */,
-			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			buildConfigurations = (
+				07CA5E29C406222F0486620D /* Debug */,
+				AA214C66DAA83D02C22B7389 /* Release */,
+			);
 		};
-		CEC42DDF507AD5BBFD8FFB55 /* Build configuration list for PBXNativeTarget "SpeakHere" */ = {
+		834D89408084A52967402A58 /* Build configuration list for PBXProject "SpeakHere" */ = {
 			isa = XCConfigurationList;
-			buildConfigurations = (
-				854E6741B93D1ED8B0553AFE /* Debug */,
-				6AC6F1FCFA305893C9958D71 /* Release */,
-			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+			buildConfigurations = (
+				F246C2ED5F811A37E073A5F5 /* Debug */,
+				0F99BB1FB4D41E492C2BCA69 /* Release */,
+			);
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 89B29E4CF39EF3BC42DE3BA8 /* Project object */;
+	archiveVersion = 1;
+	objectVersion = 46;
+	classes = {
+	};
+	rootObject = 98D88D1255AD6E1EEBF7FF7E /* Project object */;
 }
