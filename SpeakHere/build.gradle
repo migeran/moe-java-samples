@@ -5,15 +5,11 @@
 buildscript {
     // Add central and local Maven repos
     repositories {
-        maven {
-            url uri(System.getenv("INTEL_MULTI_OS_ENGINE_HOME") + "/gradle")
-        }
-        mavenCentral()
-
+        jcenter()
     }
     dependencies {
         // MOE plugin
-        classpath 'com.intel.gradle:moeGradlePlugin:1.1.+'
+        classpath group: 'org.multi-os-engine', name: 'moe-gradle', version: '1.1.+'
     }
 }
 
@@ -27,14 +23,6 @@ apply plugin: 'moe'
 // Set source and target to Java 8
 sourceCompatibility = "1.8"
 targetCompatibility = "1.8"
-
-// Set maven repository
-repositories {
-    maven {
-        url uri(System.getenv("INTEL_MULTI_OS_ENGINE_HOME") + "/gradle")
-    }
-    mavenCentral()
-}
 
 // Exclude all files from Gradle's test runner
 test { exclude '**' }

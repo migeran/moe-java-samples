@@ -5,8 +5,8 @@ import ios.uikit.UIWindow;
 import ios.uikit.c.UIKit;
 import ios.uikit.protocol.UIApplicationDelegate;
 
-import com.intel.moe.natj.general.Pointer;
-import com.intel.moe.natj.general.ann.Generated;
+import org.moe.natj.general.Pointer;
+import org.moe.natj.general.ann.Generated;
 
 public class Main extends NSObject implements UIApplicationDelegate {
 

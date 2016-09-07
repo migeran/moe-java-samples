@@ -20,7 +20,7 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>Intel.MOE.Main.Class</key>
+	<key>MOE.Main.Class</key>
 	<string>com.migeran.speakhere.Main</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>

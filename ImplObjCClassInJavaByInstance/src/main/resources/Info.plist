@@ -45,7 +45,7 @@
         <string>MainUI</string>
         <key>CFBundleDisplayName</key>
         <string>ImplObjCClassInJavaByInstance</string>
-        <key>Intel.MOE.Main.Class</key>
+        <key>MOE.Main.Class</key>
         <string>com.migeran.objcapp.Main</string>
         <key>UILaunchStoryboardName</key>
         <string>LaunchScreen</string>

@@ -1,6 +1,6 @@
 package com.migeran.objcapp;
 
-import com.intel.moe.natj.general.ann.Keep;
+import org.moe.natj.general.ann.Keep;
 
 @Keep
 public class CounterService {

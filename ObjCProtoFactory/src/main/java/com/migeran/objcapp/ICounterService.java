@@ -1,10 +1,10 @@
 package com.migeran.objcapp;
 
 
-import com.intel.moe.natj.general.ann.Runtime;
-import com.intel.moe.natj.objc.ObjCRuntime;
-import com.intel.moe.natj.objc.ann.ObjCProtocolName;
-import com.intel.moe.natj.objc.ann.Selector;
+import org.moe.natj.general.ann.Runtime;
+import org.moe.natj.objc.ObjCRuntime;
+import org.moe.natj.objc.ann.ObjCProtocolName;
+import org.moe.natj.objc.ann.Selector;
 
 @Runtime(ObjCRuntime.class)
 @ObjCProtocolName("CounterService")

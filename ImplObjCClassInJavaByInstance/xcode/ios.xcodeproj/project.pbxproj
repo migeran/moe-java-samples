@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2778168294F54D5957307479 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED241648F28018A2B0BE2B06 /* main.cpp */; };
-		5B292647FE90EEA17ED1B5CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B7451615B056994403FB49 /* LaunchScreen.xib */; };
-		5C7376E2A838C6BA25D1BD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED241648F28018A2B0BE2B06 /* main.cpp */; };
-		66F304B27365BC4B9CADAA5F /* intel_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0394DB6DF9462F2DA1E390 /* intel_logo.png */; };
-		86E269AEEAFFFCB237A9F983 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D0241BB564E8B4061F67A72 /* preregister.txt */; };
-		9A39605AB0E8DD2DCF58812D /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56930C21CCFC907FC746676 /* MOE.framework */; };
-		9D6D6FDE7CC726BF65F08CE3 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = 05E984DF921414FDF0737DA6 /* application.jar */; };
-		A8CED6006A33EF4C2028D9D2 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D814217B96670967013EBA7 /* MainUI.storyboard */; };
-		AE7F5682F8E246A5AE02A543 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A56930C21CCFC907FC746676 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C007BEA5A6EC28DF02FFCA5C /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56930C21CCFC907FC746676 /* MOE.framework */; };
-		C1BE63156C89F36229C500AB /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BE112CE907AFC772731FF66 /* preregister.txt */; };
-		C853B12FEEDFEC6B98DE7F3F /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5E4D9C67841FDB1C331250B /* classlist.txt */; };
-		C90C5D701CDCA7BF0056A8D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C90C5D6B1CDCA7BF0056A8D3 /* AppDelegate.m */; };
-		C90C5D711CDCA7BF0056A8D3 /* CounterService.m in Sources */ = {isa = PBXBuildFile; fileRef = C90C5D6D1CDCA7BF0056A8D3 /* CounterService.m */; };
-		C90C5D721CDCA7BF0056A8D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90C5D6F1CDCA7BF0056A8D3 /* ViewController.m */; };
-		C9F907F7B6C7226D14BBF0C3 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = E290A1681E207EB73E8DB795 /* application.jar */; };
-		CE43040E8050D6F36BB85614 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFCDE8A899B9077F317C1ED1 /* Info.plist */; };
-		F38B880F003C0F241956D9C8 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A56930C21CCFC907FC746676 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		225B7431A740219FB549B1AB /* intel_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B29E7FC48A83DA90DD340D69 /* intel_logo.png */; };
+		4A2AB8EA2AFCBCED84EED8F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38B8DDC8674E85BC51B21F52 /* main.cpp */; };
+		60B1BBDCF7FEAAC184B65D5E /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1524339B1E5D5E127F1F3D6 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		656B3ABCE59B37833943E80E /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54DA00101E5FFBCEBFE255A7 /* preregister.txt */; };
+		704D32FAC9702A7BD19D6D42 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38B8DDC8674E85BC51B21F52 /* main.cpp */; };
+		7C19A22A2C5D15B27E7C52EF /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 585EE3B1D3C7C640A3847CD8 /* classlist.txt */; };
+		8FD75D9BFCFE85AC6CE67732 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = A5572851946A5C816C38D59D /* application.jar */; };
+		99AFC9D31D8026690096C000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC9CE1D8026690096C000 /* AppDelegate.m */; };
+		99AFC9D41D8026690096C000 /* CounterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC9D01D8026690096C000 /* CounterService.m */; };
+		99AFC9D51D8026690096C000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC9D21D8026690096C000 /* ViewController.m */; };
+		9D82EA0705845AFDBDC5B8C5 /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1524339B1E5D5E127F1F3D6 /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6EA08397954A4A057A0E0F0 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D994D44F9EAC3496666D4D5 /* preregister.txt */; };
+		C703660EF5338D00C8062223 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5200F94AF8B57847D368415D /* Info.plist */; };
+		CE8F68E8121C7278E9F8D569 /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1524339B1E5D5E127F1F3D6 /* MOE.framework */; };
+		CED2C03F8DEBB4150B801223 /* MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DEAF42570DC8CEBF2D9280 /* MainUI.storyboard */; };
+		D21030B343AD02F66E1318C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C7DD6E5DD675995ABB46DE7 /* LaunchScreen.xib */; };
+		E6F44EFFDFB3B80E6F9764EF /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = 3A0F5697E1D08E7AA07811E3 /* application.jar */; };
+		EE1C78C1EDFB552AF884F5EC /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1524339B1E5D5E127F1F3D6 /* MOE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5EE8BFBF7636CDC3FAE7F934 /* Embed Frameworks */ = {
+		71A2D849A0C51C02B8567DA0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AE7F5682F8E246A5AE02A543 /* MOE.framework in Embed Frameworks */,
+				9D82EA0705845AFDBDC5B8C5 /* MOE.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B170CF403E9F9A854F66F22F /* Embed Frameworks */ = {
+		A2BDFCF1705B9721FAEE83EB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F38B880F003C0F241956D9C8 /* MOE.framework in Embed Frameworks */,
+				60B1BBDCF7FEAAC184B65D5E /* MOE.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,172 +53,174 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		05E984DF921414FDF0737DA6 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/main/application.jar; sourceTree = SOURCE_ROOT; };
-		30B7451615B056994403FB49 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
-		4D814217B96670967013EBA7 /* MainUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainUI.storyboard; path = ../src/main/resources/MainUI.storyboard; sourceTree = SOURCE_ROOT; };
-		5BE112CE907AFC772731FF66 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/main/preregister.txt; sourceTree = SOURCE_ROOT; };
-		6921E1A66E18836636689589 /* ios-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C886336DBE612DFBDDC27A3 /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Test.plist"; path = "ios-Test/Info-Test.plist"; sourceTree = "<group>"; };
-		8D0241BB564E8B4061F67A72 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
-		A56930C21CCFC907FC746676 /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = MOE_FRAMEWORK_PATH; };
-		A5E4D9C67841FDB1C331250B /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = classlist.txt; path = ../build/moe/test/classlist.txt; sourceTree = SOURCE_ROOT; };
-		B3806FE3A85722F71BBE7BDB /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC7A43F1DEEF52B5B41522E1 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		BFCDE8A899B9077F317C1ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../src/main/resources/Info.plist; sourceTree = SOURCE_ROOT; };
-		C90C5D6A1CDCA7BF0056A8D3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C90C5D6B1CDCA7BF0056A8D3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C90C5D6C1CDCA7BF0056A8D3 /* CounterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterService.h; sourceTree = "<group>"; };
-		C90C5D6D1CDCA7BF0056A8D3 /* CounterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterService.m; sourceTree = "<group>"; };
-		C90C5D6E1CDCA7BF0056A8D3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C90C5D6F1CDCA7BF0056A8D3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E290A1681E207EB73E8DB795 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
-		ED241648F28018A2B0BE2B06 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F5F8B249EB078D182EC33A8C /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		FE0394DB6DF9462F2DA1E390 /* intel_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intel_logo.png; path = ../src/main/resources/intel_logo.png; sourceTree = SOURCE_ROOT; };
+		14A80ADFB3C3A7B5ACEA8020 /* ios-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B8DDC8674E85BC51B21F52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3A0F5697E1D08E7AA07811E3 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/test/application.jar; sourceTree = SOURCE_ROOT; };
+		5200F94AF8B57847D368415D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../src/main/resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		54DA00101E5FFBCEBFE255A7 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/main/preregister.txt; sourceTree = SOURCE_ROOT; };
+		585EE3B1D3C7C640A3847CD8 /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = classlist.txt; path = ../build/moe/test/classlist.txt; sourceTree = SOURCE_ROOT; };
+		5B8AAA8AC7353D9303A3DC39 /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Test.plist"; path = "ios-Test/Info-Test.plist"; sourceTree = SOURCE_ROOT; };
+		60DEAF42570DC8CEBF2D9280 /* MainUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainUI.storyboard; path = ../src/main/resources/MainUI.storyboard; sourceTree = SOURCE_ROOT; };
+		6D994D44F9EAC3496666D4D5 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = ../build/moe/test/preregister.txt; sourceTree = SOURCE_ROOT; };
+		7C7DD6E5DD675995ABB46DE7 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		99AFC9CD1D8026690096C000 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99AFC9CE1D8026690096C000 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99AFC9CF1D8026690096C000 /* CounterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterService.h; sourceTree = "<group>"; };
+		99AFC9D01D8026690096C000 /* CounterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterService.m; sourceTree = "<group>"; };
+		99AFC9D11D8026690096C000 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99AFC9D21D8026690096C000 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5572851946A5C816C38D59D /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = ../build/moe/main/application.jar; sourceTree = SOURCE_ROOT; };
+		B29E7FC48A83DA90DD340D69 /* intel_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intel_logo.png; path = ../src/main/resources/intel_logo.png; sourceTree = SOURCE_ROOT; };
+		B7B9AB7FA8372BE320AD636E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../src/main/resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		D1524339B1E5D5E127F1F3D6 /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = MOE_FRAMEWORK_PATH; };
+		E2A1ECD5BC0AA2312830510D /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9330C74504295E4C61ADB3 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		F40D84FDE9D40DF55B78DB76 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		17AA02635FA077FEA3B5E9EB /* Frameworks */ = {
+		10467958A33D35DB210609C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A39605AB0E8DD2DCF58812D /* MOE.framework in Frameworks */,
+				EE1C78C1EDFB552AF884F5EC /* MOE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A6A4BCC8DF238B1957B521E /* Frameworks */ = {
+		72018231971BA6D2C5B5D448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C007BEA5A6EC28DF02FFCA5C /* MOE.framework in Frameworks */,
+				CE8F68E8121C7278E9F8D569 /* MOE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DD874E23FFD094453ED67A5 /* ios-Test */ = {
+		4251E23107FCB73EC3ECA631 /* ios-Test */ = {
 			isa = PBXGroup;
 			children = (
-				9942FFD3F6B00C2AD3FCA668 /* Supporting Files */,
+				A493C42340F963F22F690720 /* Supporting Files */,
 			);
 			path = "ios-Test";
 			sourceTree = "<group>";
 		};
-		3200DCFD06F0C94A729DC7AB /* Products */ = {
+		50063E1BAF54552CF62A8A05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3806FE3A85722F71BBE7BDB /* ios.app */,
-				6921E1A66E18836636689589 /* ios-Test.app */,
+				E2A1ECD5BC0AA2312830510D /* ios.app */,
+				14A80ADFB3C3A7B5ACEA8020 /* ios-Test.app */,
 			);
 			path = Products;
 			sourceTree = "<group>";
 		};
-		374C427D13234C319EA7F7F2 /* ios */ = {
+		A493C42340F963F22F690720 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				966E60B543B8B4460ACC0696 /* Supporting Files */,
+				F40D84FDE9D40DF55B78DB76 /* build.xcconfig */,
+				5B8AAA8AC7353D9303A3DC39 /* Info-Test.plist */,
+				6D994D44F9EAC3496666D4D5 /* preregister.txt */,
+				3A0F5697E1D08E7AA07811E3 /* application.jar */,
+				585EE3B1D3C7C640A3847CD8 /* classlist.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4AC937DBC2709CEC111593E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC9CD1D8026690096C000 /* AppDelegate.h */,
+				99AFC9CE1D8026690096C000 /* AppDelegate.m */,
+				99AFC9CF1D8026690096C000 /* CounterService.h */,
+				99AFC9D01D8026690096C000 /* CounterService.m */,
+				99AFC9D11D8026690096C000 /* ViewController.h */,
+				99AFC9D21D8026690096C000 /* ViewController.m */,
+				38B8DDC8674E85BC51B21F52 /* main.cpp */,
+				EB9330C74504295E4C61ADB3 /* build.xcconfig */,
+				B7B9AB7FA8372BE320AD636E /* Info.plist */,
+				54DA00101E5FFBCEBFE255A7 /* preregister.txt */,
+				A5572851946A5C816C38D59D /* application.jar */,
+				5200F94AF8B57847D368415D /* Info.plist */,
+				7C7DD6E5DD675995ABB46DE7 /* LaunchScreen.xib */,
+				B29E7FC48A83DA90DD340D69 /* intel_logo.png */,
+				60DEAF42570DC8CEBF2D9280 /* MainUI.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D89BA54B8F92AD2DF7B843FB = {
+			isa = PBXGroup;
+			children = (
+				DDF23DF08AC82D5DBBDD3156 /* ios */,
+				4251E23107FCB73EC3ECA631 /* ios-Test */,
+				F2FD0AD4AA76BD3DC773CDC2 /* Frameworks */,
+				50063E1BAF54552CF62A8A05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF23DF08AC82D5DBBDD3156 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC937DBC2709CEC111593E /* Supporting Files */,
 			);
 			path = ios;
 			sourceTree = "<group>";
 		};
-		966E60B543B8B4460ACC0696 /* Supporting Files */ = {
+		F2FD0AD4AA76BD3DC773CDC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C90C5D6A1CDCA7BF0056A8D3 /* AppDelegate.h */,
-				C90C5D6B1CDCA7BF0056A8D3 /* AppDelegate.m */,
-				C90C5D6C1CDCA7BF0056A8D3 /* CounterService.h */,
-				C90C5D6D1CDCA7BF0056A8D3 /* CounterService.m */,
-				C90C5D6E1CDCA7BF0056A8D3 /* ViewController.h */,
-				C90C5D6F1CDCA7BF0056A8D3 /* ViewController.m */,
-				ED241648F28018A2B0BE2B06 /* main.cpp */,
-				BC7A43F1DEEF52B5B41522E1 /* build.xcconfig */,
-				5BE112CE907AFC772731FF66 /* preregister.txt */,
-				05E984DF921414FDF0737DA6 /* application.jar */,
-				BFCDE8A899B9077F317C1ED1 /* Info.plist */,
-				30B7451615B056994403FB49 /* LaunchScreen.xib */,
-				FE0394DB6DF9462F2DA1E390 /* intel_logo.png */,
-				4D814217B96670967013EBA7 /* MainUI.storyboard */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9942FFD3F6B00C2AD3FCA668 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5F8B249EB078D182EC33A8C /* build.xcconfig */,
-				6C886336DBE612DFBDDC27A3 /* Info-Test.plist */,
-				8D0241BB564E8B4061F67A72 /* preregister.txt */,
-				E290A1681E207EB73E8DB795 /* application.jar */,
-				A5E4D9C67841FDB1C331250B /* classlist.txt */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A35CA2BEF045C5F3A9152508 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A56930C21CCFC907FC746676 /* MOE.framework */,
+				D1524339B1E5D5E127F1F3D6 /* MOE.framework */,
 			);
 			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC3712E6426F9D5601686CC5 = {
-			isa = PBXGroup;
-			children = (
-				374C427D13234C319EA7F7F2 /* ios */,
-				2DD874E23FFD094453ED67A5 /* ios-Test */,
-				A35CA2BEF045C5F3A9152508 /* Frameworks */,
-				3200DCFD06F0C94A729DC7AB /* Products */,
-			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8608F3927D4A386EE2719AC3 /* ios */ = {
+		874D401FC55C30EEA48AE74E /* ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 595A93EB7D3D92272B2DBE5A /* Build configuration list for PBXNativeTarget "ios" */;
+			buildConfigurationList = 8433251B88D3F5A50E3CFF89 /* Build configuration list for PBXNativeTarget "ios" */;
 			buildPhases = (
-				4D2D3A0396BA8705D1CB5F27 /* Compile Sources (MOE) */,
-				17AA02635FA077FEA3B5E9EB /* Frameworks */,
-				25D5231F51BD58FE6A055605 /* Resources */,
-				E2D7EDE7B86FD3F6BEFA3DF4 /* Sources */,
-				B170CF403E9F9A854F66F22F /* Embed Frameworks */,
+				59445AAAA2D5831A4EC4F943 /* Compile Sources (MOE) */,
+				10467958A33D35DB210609C8 /* Frameworks */,
+				288B2E30328DE67442E6AEB2 /* Resources */,
+				732BE55EB15DFF57DD1EA27E /* Sources */,
+				A2BDFCF1705B9721FAEE83EB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			name = ios;
 			productName = ios;
-			productReference = B3806FE3A85722F71BBE7BDB /* ios.app */;
+			productReference = E2A1ECD5BC0AA2312830510D /* ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D10BB10B20F074DFCA63C7BA /* ios-Test */ = {
+		AAE079AF4694AE576DC5DC71 /* ios-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C10EB653A4408B1FF503FA8 /* Build configuration list for PBXNativeTarget "ios-Test" */;
+			buildConfigurationList = 61ABE1DDCF1A01F3AF3A8FBC /* Build configuration list for PBXNativeTarget "ios-Test" */;
 			buildPhases = (
-				3CF16D548E2020369AC82BD3 /* Compile Sources (MOE) */,
-				2A6A4BCC8DF238B1957B521E /* Frameworks */,
-				DFD144B15821D0B4F56BE8F4 /* Resources */,
-				835F823981727581CC959C16 /* Sources */,
-				5EE8BFBF7636CDC3FAE7F934 /* Embed Frameworks */,
+				534AB1C8B19C9D9DE48E8776 /* Compile Sources (MOE) */,
+				72018231971BA6D2C5B5D448 /* Frameworks */,
+				84D0F02CAC9A44880B98C492 /* Resources */,
+				49E1461F5274A76199185B22 /* Sources */,
+				71A2D849A0C51C02B8567DA0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			name = "ios-Test";
 			productName = "ios-Test";
-			productReference = 6921E1A66E18836636689589 /* ios-Test.app */;
+			productReference = 14A80ADFB3C3A7B5ACEA8020 /* ios-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		897D9F0282620939E8349140 /* Project object */ = {
+		474E104EA723F8EB5DF5E9FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "";
+				ORGANIZATIONNAME = "My Company";
 			};
-			buildConfigurationList = 470C6A5E39DA9B7143924708 /* Build configuration list for PBXProject "ios" */;
+			buildConfigurationList = E574CB8C278FB50AC6F81147 /* Build configuration list for PBXProject "ios" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,45 +228,45 @@
 				en,
 				Base,
 			);
-			mainGroup = CC3712E6426F9D5601686CC5;
-			productRefGroup = 3200DCFD06F0C94A729DC7AB /* Products */;
+			mainGroup = D89BA54B8F92AD2DF7B843FB;
+			productRefGroup = 50063E1BAF54552CF62A8A05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8608F3927D4A386EE2719AC3 /* ios */,
-				D10BB10B20F074DFCA63C7BA /* ios-Test */,
+				874D401FC55C30EEA48AE74E /* ios */,
+				AAE079AF4694AE576DC5DC71 /* ios-Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		25D5231F51BD58FE6A055605 /* Resources */ = {
+		288B2E30328DE67442E6AEB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1BE63156C89F36229C500AB /* preregister.txt in Resources */,
-				9D6D6FDE7CC726BF65F08CE3 /* application.jar in Resources */,
-				CE43040E8050D6F36BB85614 /* Info.plist in Resources */,
-				5B292647FE90EEA17ED1B5CB /* LaunchScreen.xib in Resources */,
-				66F304B27365BC4B9CADAA5F /* intel_logo.png in Resources */,
-				A8CED6006A33EF4C2028D9D2 /* MainUI.storyboard in Resources */,
+				656B3ABCE59B37833943E80E /* preregister.txt in Resources */,
+				8FD75D9BFCFE85AC6CE67732 /* application.jar in Resources */,
+				C703660EF5338D00C8062223 /* Info.plist in Resources */,
+				D21030B343AD02F66E1318C0 /* LaunchScreen.xib in Resources */,
+				225B7431A740219FB549B1AB /* intel_logo.png in Resources */,
+				CED2C03F8DEBB4150B801223 /* MainUI.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFD144B15821D0B4F56BE8F4 /* Resources */ = {
+		84D0F02CAC9A44880B98C492 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E269AEEAFFFCB237A9F983 /* preregister.txt in Resources */,
-				C9F907F7B6C7226D14BBF0C3 /* application.jar in Resources */,
-				C853B12FEEDFEC6B98DE7F3F /* classlist.txt in Resources */,
+				B6EA08397954A4A057A0E0F0 /* preregister.txt in Resources */,
+				E6F44EFFDFB3B80E6F9764EF /* application.jar in Resources */,
+				7C19A22A2C5D15B27E7C52EF /* classlist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3CF16D548E2020369AC82BD3 /* Compile Sources (MOE) */ = {
+		534AB1C8B19C9D9DE48E8776 /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,9 +278,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "cd \"${SRCROOT}/..\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    export MOE_BUILD_SOURCE_SET=test\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
+			shellScript = "\n# Check directories set by xcconfigs\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\nif [ ! -d \"$MOE_PROJECT_BUILD_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\ncd \"$MOE_PROJECT_DIR/\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    export MOE_BUILD_SOURCE_SET=test\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
 		};
-		4D2D3A0396BA8705D1CB5F27 /* Compile Sources (MOE) */ = {
+		59445AAAA2D5831A4EC4F943 /* Compile Sources (MOE) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,56 +292,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "cd \"${SRCROOT}/..\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
+			shellScript = "\n# Check directories set by xcconfigs\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\nif [ ! -d \"$MOE_PROJECT_BUILD_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\ncd \"$MOE_PROJECT_DIR/\"\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tDEFAULT_PATH=$(echo $PATH)\n\tsource ~/.bash_profile\n\texport PATH=$PATH:DEFAULT_PATH\n\n\techo \"Checking with 'which'\"\n\tGRADLE_EXEC=$(which 'gradle')\n\n\tif [ \"$GRADLE_EXEC\" = \"\" ]; then\n\t\techo \"Falling back to '/usr/local/bin/gradle'\"\n\t\tGRADLE_EXEC=/usr/local/bin/gradle\n\tfi\n}\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n\n    \"$GRADLE_EXEC\" --daemon moeXcodeInternal\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		835F823981727581CC959C16 /* Sources */ = {
+		49E1461F5274A76199185B22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7376E2A838C6BA25D1BD43 /* main.cpp in Sources */,
+				704D32FAC9702A7BD19D6D42 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2D7EDE7B86FD3F6BEFA3DF4 /* Sources */ = {
+		732BE55EB15DFF57DD1EA27E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90C5D711CDCA7BF0056A8D3 /* CounterService.m in Sources */,
-				C90C5D701CDCA7BF0056A8D3 /* AppDelegate.m in Sources */,
-				C90C5D721CDCA7BF0056A8D3 /* ViewController.m in Sources */,
-				2778168294F54D5957307479 /* main.cpp in Sources */,
+				99AFC9D41D8026690096C000 /* CounterService.m in Sources */,
+				99AFC9D31D8026690096C000 /* AppDelegate.m in Sources */,
+				99AFC9D51D8026690096C000 /* ViewController.m in Sources */,
+				4A2AB8EA2AFCBCED84EED8F9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		03EB7C60A387D3B38BF67EBF /* Release */ = {
+		5B6E6F7FBA93F915F453F4BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC7A43F1DEEF52B5B41522E1 /* build.xcconfig */;
+			baseConfigurationReference = F40D84FDE9D40DF55B78DB76 /* build.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = ../src/main/resources/Info.plist;
+				INFOPLIST_FILE = "ios-Test/Info-Test.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = ios;
+				PRODUCT_NAME = "ios-Test";
 				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
-		0DCF61C0B211B159BA6D119C /* Debug */ = {
+		715784CD0B5F4B0F2BD5958D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F8B249EB078D182EC33A8C /* build.xcconfig */;
+			baseConfigurationReference = F40D84FDE9D40DF55B78DB76 /* build.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "Info-Test.plist";
+				INFOPLIST_FILE = "ios-Test/Info-Test.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
 				PRODUCT_NAME = "ios-Test";
@@ -347,22 +349,7 @@
 			};
 			name = Debug;
 		};
-		374DDCB8D7783A7F4918ACFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC7A43F1DEEF52B5B41522E1 /* build.xcconfig */;
-			buildSettings = {
-				DEAD_CODE_STRIPPING = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = ../src/main/resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = ios;
-				STRIP_STYLE = "non-global";
-			};
-			name = Debug;
-		};
-		A916321EFD524F64CC2EDDAC /* Release */ = {
+		77748F17B0AE8BDCEB8CB312 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -394,32 +381,32 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SYMROOT = "/Volumes/job/git/moe-objc-java-samples/ImplObjCClassInJavaByInstance/build/moe/xcodebuild/sym";
+				SYMROOT = "$(SRCROOT)/../build/moe/xcodebuild/sym";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E24D7BBC1D333DF022F03A44 /* Release */ = {
+		8426EBA86293BE187AC290E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F8B249EB078D182EC33A8C /* build.xcconfig */;
+			baseConfigurationReference = EB9330C74504295E4C61ADB3 /* build.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "Info-Test.plist";
+				INFOPLIST_FILE = ../src/main/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
-				PRODUCT_NAME = "ios-Test";
+				PRODUCT_NAME = ios;
 				STRIP_STYLE = "non-global";
 			};
-			name = Release;
+			name = Debug;
 		};
-		EB90CB89CC62446E941D0923 /* Debug */ = {
+		A61D413147BCCDD783A98EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -457,46 +444,61 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = "/Volumes/job/git/moe-objc-java-samples/ImplObjCClassInJavaByInstance/build/moe/xcodebuild/sym";
+				SYMROOT = "$(SRCROOT)/../build/moe/xcodebuild/sym";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
+		A67B1FC48A05D881A339316C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9330C74504295E4C61ADB3 /* build.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ../src/main/resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${MOE_OTHER_LDFLAGS}";
+				PRODUCT_NAME = ios;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		470C6A5E39DA9B7143924708 /* Build configuration list for PBXProject "ios" */ = {
+		61ABE1DDCF1A01F3AF3A8FBC /* Build configuration list for PBXNativeTarget "ios-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB90CB89CC62446E941D0923 /* Debug */,
-				A916321EFD524F64CC2EDDAC /* Release */,
+				715784CD0B5F4B0F2BD5958D /* Debug */,
+				5B6E6F7FBA93F915F453F4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		595A93EB7D3D92272B2DBE5A /* Build configuration list for PBXNativeTarget "ios" */ = {
+		8433251B88D3F5A50E3CFF89 /* Build configuration list for PBXNativeTarget "ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				374DDCB8D7783A7F4918ACFB /* Debug */,
-				03EB7C60A387D3B38BF67EBF /* Release */,
+				8426EBA86293BE187AC290E9 /* Debug */,
+				A67B1FC48A05D881A339316C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C10EB653A4408B1FF503FA8 /* Build configuration list for PBXNativeTarget "ios-Test" */ = {
+		E574CB8C278FB50AC6F81147 /* Build configuration list for PBXProject "ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DCF61C0B211B159BA6D119C /* Debug */,
-				E24D7BBC1D333DF022F03A44 /* Release */,
+				A61D413147BCCDD783A98EF7 /* Debug */,
+				77748F17B0AE8BDCEB8CB312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 897D9F0282620939E8349140 /* Project object */;
+	rootObject = 474E104EA723F8EB5DF5E9FB /* Project object */;
 }

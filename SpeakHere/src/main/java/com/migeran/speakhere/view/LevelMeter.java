@@ -23,8 +23,8 @@ import ios.uikit.UIColor;
 import ios.uikit.UIView;
 import ios.uikit.c.UIKit;
 
-import com.intel.moe.natj.general.Pointer;
-import com.intel.moe.natj.general.ann.Generated;
+import org.moe.natj.general.Pointer;
+import org.moe.natj.general.ann.Generated;
 
 public class LevelMeter extends UIView {
 	private static final boolean YES = true;

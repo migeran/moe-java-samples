@@ -1,9 +1,9 @@
 package com.migeran.objcapp;
 
-import com.intel.moe.natj.general.Pointer;
-import com.intel.moe.natj.general.ann.RegisterOnStartup;
-import com.intel.moe.natj.objc.ann.ObjCClassName;
-import com.intel.moe.natj.objc.ann.Selector;
+import org.moe.natj.general.Pointer;
+import org.moe.natj.general.ann.RegisterOnStartup;
+import org.moe.natj.objc.ann.ObjCClassName;
+import org.moe.natj.objc.ann.Selector;
 import ios.NSObject;
 
 @ObjCClassName("CounterService")

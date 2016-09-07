@@ -19,21 +19,21 @@ import ios.uikit.c.UIKit;
 
 import java.io.File;
 
-import com.intel.moe.natj.general.NatJ;
-import com.intel.moe.natj.general.Pointer;
-import com.intel.moe.natj.general.ann.Generated;
-import com.intel.moe.natj.general.ann.NUInt;
-import com.intel.moe.natj.general.ann.Owned;
-import com.intel.moe.natj.general.ann.RegisterOnStartup;
-import com.intel.moe.natj.general.ann.Runtime;
-import com.intel.moe.natj.general.ptr.impl.PtrFactory;
-import com.intel.moe.natj.objc.ObjCRuntime;
-import com.intel.moe.natj.objc.SEL;
-import com.intel.moe.natj.objc.ann.IsOptional;
-import com.intel.moe.natj.objc.ann.NotImplemented;
-import com.intel.moe.natj.objc.ann.ObjCClassName;
-import com.intel.moe.natj.objc.ann.Property;
-import com.intel.moe.natj.objc.ann.Selector;
+import org.moe.natj.general.NatJ;
+import org.moe.natj.general.Pointer;
+import org.moe.natj.general.ann.Generated;
+import org.moe.natj.general.ann.NUInt;
+import org.moe.natj.general.ann.Owned;
+import org.moe.natj.general.ann.RegisterOnStartup;
+import org.moe.natj.general.ann.Runtime;
+import org.moe.natj.general.ptr.impl.PtrFactory;
+import org.moe.natj.objc.ObjCRuntime;
+import org.moe.natj.objc.SEL;
+import org.moe.natj.objc.ann.IsOptional;
+import org.moe.natj.objc.ann.NotImplemented;
+import org.moe.natj.objc.ann.ObjCClassName;
+import org.moe.natj.objc.ann.Property;
+import org.moe.natj.objc.ann.Selector;
 import com.migeran.speakhere.AQPlayer;
 import com.migeran.speakhere.AQRecorder;
 import com.migeran.speakhere.CAXException;
@@ -93,13 +93,13 @@ public class SpeakHereViewController extends UIViewController implements AVAudio
 
 	@Generated
 	public void setBtn_play(UIBarButtonItem value) {
-		com.intel.moe.natj.objc.ObjCObject __old = (com.intel.moe.natj.objc.ObjCObject) btn_play();
+		org.moe.natj.objc.ObjCObject __old = (org.moe.natj.objc.ObjCObject) btn_play();
 		if (value != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
+			org.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
 		}
 		setBtn_play_unsafe(value);
 		if (__old != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
+			org.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
 		}
 	}
 
@@ -109,13 +109,13 @@ public class SpeakHereViewController extends UIViewController implements AVAudio
 
 	@Generated
 	public void setBtn_record(UIBarButtonItem value) {
-		com.intel.moe.natj.objc.ObjCObject __old = (com.intel.moe.natj.objc.ObjCObject) btn_record();
+		org.moe.natj.objc.ObjCObject __old = (org.moe.natj.objc.ObjCObject) btn_record();
 		if (value != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
+			org.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
 		}
 		setBtn_record_unsafe(value);
 		if (__old != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
+			org.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
 		}
 	}
 
@@ -125,13 +125,13 @@ public class SpeakHereViewController extends UIViewController implements AVAudio
 
 	@Generated
 	public void setFileDescription(UILabel value) {
-		com.intel.moe.natj.objc.ObjCObject __old = (com.intel.moe.natj.objc.ObjCObject) fileDescription();
+		org.moe.natj.objc.ObjCObject __old = (org.moe.natj.objc.ObjCObject) fileDescription();
 		if (value != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
+			org.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
 		}
 		setFileDescription_unsafe(value);
 		if (__old != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
+			org.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
 		}
 	}
 
@@ -141,13 +141,13 @@ public class SpeakHereViewController extends UIViewController implements AVAudio
 
 	@Generated
 	public void setLvlMeter_in(AQLevelMeter value) {
-		com.intel.moe.natj.objc.ObjCObject __old = (com.intel.moe.natj.objc.ObjCObject) lvlMeter_in();
+		org.moe.natj.objc.ObjCObject __old = (org.moe.natj.objc.ObjCObject) lvlMeter_in();
 		if (value != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
+			org.moe.natj.objc.ObjCRuntime.associateObjCObject(this, value);
 		}
 		setLvlMeter_in_unsafe(value);
 		if (__old != null) {
-			com.intel.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
+			org.moe.natj.objc.ObjCRuntime.dissociateObjCObject(this, __old);
 		}
 	}
 

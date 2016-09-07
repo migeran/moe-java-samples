@@ -34,14 +34,16 @@ import ios.foundation.c.Foundation;
 
 import java.io.File;
 
-import com.intel.moe.natj.c.CRuntime;
-import com.intel.moe.natj.general.ann.Keep;
-import com.intel.moe.natj.general.ptr.BytePtr;
-import com.intel.moe.natj.general.ptr.IntPtr;
-import com.intel.moe.natj.general.ptr.Ptr;
-import com.intel.moe.natj.general.ptr.VoidPtr;
-import com.intel.moe.natj.general.ptr.impl.PtrFactory;
-import com.intel.moe.natj.general.ptr.impl.PtrUtils;
+import org.moe.natj.c.CRuntime;
+import org.moe.natj.general.ann.Keep;
+import org.moe.natj.general.ann.ReferenceInfo;
+import org.moe.natj.general.ptr.BytePtr;
+import org.moe.natj.general.ptr.ConstPtr;
+import org.moe.natj.general.ptr.IntPtr;
+import org.moe.natj.general.ptr.Ptr;
+import org.moe.natj.general.ptr.VoidPtr;
+import org.moe.natj.general.ptr.impl.PtrFactory;
+import org.moe.natj.general.ptr.impl.PtrUtils;
 
 @Keep
 public class AQRecorder implements Function_AudioQueueNewInput {
@@ -132,9 +134,8 @@ public class AQRecorder implements Function_AudioQueueNewInput {
 	// ____________________________________________________________________________________
 	// AudioQueue callback function, called when an input buffers has been
 	// filled.
-
 	@Override
-	public void call_AudioQueueNewInput(VoidPtr inUserData, VoidPtr inAQ, AudioQueueBuffer inBuffer, AudioTimeStamp inStartTime, int inNumPackets, AudioStreamPacketDescription inPacketDesc) {
+	public void call_AudioQueueNewInput(VoidPtr inUserData, VoidPtr inAQ, AudioQueueBuffer inBuffer, AudioTimeStamp inStartTime, int inNumPackets, @ReferenceInfo(type = AudioStreamPacketDescription.class) ConstPtr<AudioStreamPacketDescription> inPacketDesc) {
 		try {
 			if (inNumPackets > 0) {
 				// write packets to file
