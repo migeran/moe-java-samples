@@ -19,7 +19,20 @@ public class CounterService extends NSObject {
         super(peer);
     }
 
-    private static ICounterService INSTANCE = CounterServiceImpl.alloc().init();
+    private static ICounterService INSTANCE = new ICounterService() {
+
+        private int counter;
+
+        @Override
+        public int increment() {
+            return ++counter;
+        }
+
+        @Override
+        public int getCount() {
+            return counter;
+        }
+    };
 
     @Selector("get")
     public static ICounterService get() {
